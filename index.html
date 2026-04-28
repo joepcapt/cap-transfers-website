@@ -8,15 +8,17 @@
     :root { --primary: #1a3c6e; --accent: #d32f2f; }
     * { margin:0; padding:0; box-sizing:border-box; }
     body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; color: #333; }
+    
     header {
       background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('industrial-storage-tank-features-3327988948.jpg') center/cover no-repeat;
       color: white;
       text-align: center;
       padding: 120px 20px 80px;
     }
-    .logo { max-width: 280px; margin-bottom: 20px; }
+    .logo { max-width: 320px; margin-bottom: 20px; }
     h1 { font-size: 2.8rem; margin-bottom: 10px; }
     .tagline { font-size: 1.4rem; font-weight: 300; }
+
     section { padding: 80px 20px; text-align: center; }
     .hero {
       background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('MoRiverTowingBarge-1-2155415637.jpg') center/cover no-repeat;
@@ -31,23 +33,42 @@
       max-width: 1200px;
       margin: 40px auto;
     }
-    .card { background: white; border-radius: 8px; padding: 30px 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 30px 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
     .card img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 20px; }
-    footer { background: var(--primary); color: white; padding: 60px 20px 30px; text-align: center; }
+
+    footer {
+      background: var(--primary);
+      color: white;
+      padding: 60px 20px 30px;
+      text-align: center;
+    }
     .contact-btn {
-      background: var(--accent); color: white; padding: 14px 32px; border: none; border-radius: 6px;
-      font-size: 1.1rem; cursor: pointer; margin-top: 20px;
+      background: var(--accent);
+      color: white;
+      padding: 14px 32px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
 
+  <!-- Header -->
   <header>
-    <img src="CAP Logo with Phillips.png" alt="CAP Transfers LLC" class="logo">
+    <img src="cap logo.png" alt="CAP Transfers LLC" class="logo">
     <h1>CAP Transfers LLC</h1>
     <p class="tagline">Experts in Storage, Distribution, and Logistics</p>
   </header>
 
+  <!-- Hero -->
   <section class="hero">
     <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Reliable Bulk Transportation & Storage Across the Midwest</h2>
     <p style="font-size: 1.3rem; max-width: 800px; margin: 0 auto 30px;">
@@ -58,6 +79,7 @@
     </button>
   </section>
 
+  <!-- Services -->
   <section class="services">
     <h2>Our Services</h2>
     <div class="grid">
@@ -69,21 +91,22 @@
       <div class="card">
         <img src="MoRiverTowingBarge-1-2155415637.jpg" alt="River & Barge Transport">
         <h3>River & Barge Transport</h3>
-        <p>Efficient Midwest waterway logistics.</p>
+        <p>Efficient Midwest waterway logistics using modern barges.</p>
       </div>
       <div class="card">
         <img src="OIP-272637333.jpg" alt="Tank Truck">
         <h3>Over-the-Road Trucking</h3>
-        <p>Specialized tank truck transportation.</p>
+        <p>Specialized tank truck transportation across the Midwest.</p>
       </div>
       <div class="card">
         <img src="OIP-4228258175.jpg" alt="Rail Cars">
         <h3>Rail Logistics</h3>
-        <p>Rail car handling and distribution.</p>
+        <p>Rail car handling and distribution for large-volume shipments.</p>
       </div>
     </div>
   </section>
 
+  <!-- Contact -->
   <section id="contact" style="background:#1a3c6e; color:white;">
     <h2 style="color:white;">Contact Us</h2>
     <p style="max-width: 600px; margin: 20px auto;">
@@ -91,7 +114,9 @@
       Get in touch with our team today.
     </p>
     
-    <p style="margin-top: 30px;">Email: <a href="mailto:info@captransfers.com" style="color:white;">info@captransfers.com</a></p>
+    <p style="margin-top: 30px;">
+      Email: <a href="mailto:info@captransfers.com" style="color:white;">info@captransfers.com</a>
+    </p>
   </section>
 
   <footer>
